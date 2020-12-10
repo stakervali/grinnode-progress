@@ -23,4 +23,5 @@
 | 7.12.2020| stakervali | 5| I have converted stat and challenge pages. In order to create stat and challenge tables, I had to fetch data in the component otherwise, it did not refreshed at first load | I will implement countdown and some fixing like theme color and scroll links. | Fetching data in component break maybe problematic , I will consult WarmBeer. |
 |8.12.2020| stakervali | 4| I have implemented countdown for remaining block and time to hardfork 5.0. I have fixed theme color | I will make a pull request after merging/replacing code with master branch and  a last overall check | I got cors error while getting remaining block count from api | No |
 |9.12.2020| stakervali | 3| I have converted globalhealth-check view. I have used a calendar component for scheduled downtimes. Fixed some bugs, converted links, choose theme colours from colormind.io. I have made a pull request | Adding grinaddress checker | ----|No|
+|10.12.2020| stakervali | 3| I have fixed api status bug, made an anchor for hardfork countdown and fixed other stuff  | Adding grinaddress checker and coingecko api check  | ----|No|
 
