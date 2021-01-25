@@ -32,5 +32,6 @@
 |15.01.2021| stakervali | 3 | I have found out that countdown timer shows different values depending on client timerzone. I have changed code so that in every 30 seconds, countdown is readjusted to remaining block count. I have updated news section. Added blockheight to stats page and removed API V1 links from tutorials section| I will work on implementing algorithm based on rules in j01tz grin-health repo. | ---- |No |
 |22.01.2021| stakervali | 4 | I have developed nicehash score calculation by querying coingecko, grinmint and nicehash apis. calculation algorithm is based on @joltz repo. I tested script and validated that results are same with https://joltz.keybase.pub/api/grin | I will implement script for reorg score calculation | ---- | No |
 |23.01.2021 | stakervali | 4 | I have fixed a bug in reorg_parser. I have implemented reorg_score calculation based on @joltz repo | I will store results of nicehash and reorg score  into database with a new table| ---| No|
+|24.01.2021 | stakervali | 4 | I have created sql script for health_score table in db. I have developed health_check script as command line utilty. I have updated readme.md with health_check section. | Deployment of scripts to production. Addition of Geomap for grinnodes in frontend | ---- | No|
 
 
