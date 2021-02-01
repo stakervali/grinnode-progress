@@ -34,6 +34,6 @@
 |23.01.2021 | stakervali | 4 | I have fixed a bug in reorg_parser. I have implemented reorg_score calculation based on @joltz repo | I will store results of nicehash and reorg score  into database with a new table| ---| No|
 |24.01.2021 | stakervali | 4 | I have created sql script for health_score table in db. I have developed health_check script as command line utilty. I have updated readme.md with health_check section. | Deployment of scripts to production. Addition of Geomap for grinnodes in frontend | ---- | No|
 |31.01.2021 | stakervali | 1 | I have added health, nicehash and reorg score ro statistics page. I fetch joltz API but got CORS error due to missing 'access-control-allow-origin' header. | I will  fetch nicehash and grinming api from client for nicehash calculation. | I could not fetch joltz's API as planned | No |
-
+|1.01.2021| stakervali | 2| I have implemented nicehash calculation logic in vue-frontend. | Nicehash api calls must be done from backend. I will test it after python script's deployment. | Nicehash api does not add Cross Origin and returns 403 response. I have tried crossorigin.me to proxy api call and it failed with 403 response too. | No|
 
 
