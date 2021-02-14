@@ -36,4 +36,5 @@
 |31.01.2021 | stakervali | 1 | I have added health, nicehash and reorg score ro statistics page. I fetch joltz API but got CORS error due to missing 'access-control-allow-origin' header. | I will  fetch nicehash and grinming api from client for nicehash calculation. | I could not fetch joltz's API as planned | No |
 |1.01.2021| stakervali | 2| I have implemented nicehash calculation logic in vue-frontend. | Nicehash api calls must be done from backend. I will test it after python script's deployment. | Nicehash api does not add Cross Origin and returns 403 response. I have tried crossorigin.me to proxy api call and it failed with 403 response too. | No|
 |12.02.2021| stakervali| 3| I have examined summary logs and extract depth count and deepest branch values for calculation of reorg score. I did some explatory data analysis | I will work on grinnode-backend for parser integration | ---| No|
+|14.02.2021| stakervali| 6| I have worked on accessing Wallet API to check donation wallet of grinnode.live. Based on bladedoyle's help we checked wallet via curl command. | I will work on adding wallet health-check feature on backend. |--- |No|
 
